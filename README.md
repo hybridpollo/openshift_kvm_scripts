@@ -24,7 +24,9 @@ In my case, I have an HP DL360 G9 with the following specs:
 - Memory:  256GB
 - Disk:    1T RAID5(OS) + 3T RAID 1+0(virtual machine storage)
 - NIC:     1 x 10G single nic (its a lab after all)
-
+Minimum resource requirements are documented in this link:  [Minimum resource
+requirements for cluster
+installation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-minimum-resource-requirements_installing-bare-metal)
 
 ## Scripts and files used in this lab
 Source images used to build the vm disks:  
@@ -53,13 +55,14 @@ the vms are stopped/shutdown and the script will fail if the vms are running.
 
 
 ## Pre-requisites
-Before you start launching vms, you must follow all of the OpenShift container
-platform preparation pre-requisites. 
+Before you start launching vms, you must follow the Red Hat OpenShift Container
+Platform 
 
 Red Hat OpenShift Container platform documentation is massive. As we are
 deploying a user-provisioned-infrastructure cluster on baremetal.  We can use
 this reference documentation link as the base: 
-[Installing Red Hat OpenShift Container Platform on Baremetal[(https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/index)
+[Installing Red Hat OpenShift Container Platform on
+Baremetal[(https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installing-bare-metal)
 
 - point 1
 - point 2
