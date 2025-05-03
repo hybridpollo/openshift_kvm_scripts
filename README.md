@@ -24,6 +24,7 @@ In my case, I have an HP DL360 G9 with the following specs:
 - Memory:  256GB
 - Disk:    1T RAID5(OS) + 3T RAID 1+0(virtual machine storage)
 - NIC:     1 x 10G single nic (its a lab after all)
+
 Minimum resource requirements are documented in this link:  [Minimum resource
 requirements for cluster
 installation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-minimum-resource-requirements_installing-bare-metal)
