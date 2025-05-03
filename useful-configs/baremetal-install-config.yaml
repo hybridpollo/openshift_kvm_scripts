@@ -1,0 +1,24 @@
+apiVersion: v1
+baseDomain: lab.acanorex.io
+compute: 
+- hyperthreading: Enabled 
+  name: worker
+  replicas: 0 
+controlPlane: 
+  hyperthreading: Enabled 
+  name: master
+  replicas: 3 
+metadata:
+  name: arl-ocp4
+networking:
+  clusterNetwork:
+  - cidr: 10.252.0.0/16 
+    hostPrefix: 23 
+  networkType: OVNKubernetes 
+  serviceNetwork: 
+  - 172.30.0.0/16
+platform:
+  none: {} 
+fips: false 
+pullSecret: ''
+sshKey: ''

@@ -1,3 +1,5 @@
+#### This is a work in progress 
+
 ## About this repository
 
 This repository consists of a number of basic scripts and instructions to deploy
@@ -19,15 +21,13 @@ of hardware as possible.
 - You require access to a dns domain and can add / modify dns records necessary.
 
 ## Example hardware used on my lab
-In my case, I have an HP DL360 G9 with the following specs:
+I have an HP DL360 G9 with the following specs:
 - CPU:     2x Intel(R) Xeon(R) CPU E5-2697A v4 @ 2.60GHz
 - Memory:  256GB
 - Disk:    1T RAID5(OS) + 3T RAID 1+0(virtual machine storage)
 - NIC:     1 x 10G single nic (its a lab after all)
 
-Minimum resource requirements are documented in this link:  [Minimum resource
-requirements for cluster
-installation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-minimum-resource-requirements_installing-bare-metal)
+Minimum resource requirements are documented in this link:  [Minimum resource requirements for cluster installation](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-minimum-resource-requirements_installing-bare-metal)
 
 ## Scripts and files used in this lab
 Source images used to build the vm disks:  
@@ -65,10 +65,10 @@ this reference documentation link as the base:
 [Installing Red Hat OpenShift Container Platform on
 Baremetal](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installing-bare-metal)
 
-- [ Set the cluster node hostnames through DHCP
-  ](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-host-names-dhcp-user-infra_installing-bare-metal)
-- [Configure your DNS records to support your OpenShift
-  deployment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-dns-user-infra_installing-bare-metal)
-- [Prepare the haproxy loadbalancing
-  configuration](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-load-balancing-user-infra_installing-bare-metal)
+- [ Set the cluster node hostnames through DHCP](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-host-names-dhcp-user-infra_installing-bare-metal)
+- [Configure your DNS records to support your OpenShift deployment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-dns-user-infra_installing-bare-metal)
+- [Prepare the haproxy loadbalancing configuration](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-load-balancing-user-infra_installing-bare-metal)
+- Create, launch and configure your load balancing vm. 
 
+
+< more to be added > 
