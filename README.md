@@ -63,7 +63,7 @@ Red Hat OpenShift Container platform documentation is massive. As we are
 deploying a user-provisioned-infrastructure cluster on baremetal.  We can use
 this reference documentation link as the base: 
 [Installing Red Hat OpenShift Container Platform on
-Baremetal[(https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installing-bare-metal)
+Baremetal](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installing-bare-metal)
 
 - point 1
 - point 2
