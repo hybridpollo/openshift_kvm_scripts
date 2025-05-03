@@ -16,6 +16,7 @@ of hardware as possible.
   these vms. See example hardware that I used below
 - You undertand that this is not to be used as a production deployment and its
   simply an easy way to have a production grade reference architecture in a single node.
+- You require access to a dns domain and can add / modify dns records necessary.
 
 ## Example hardware used on my lab
 In my case, I have an HP DL360 G9 with the following specs:
@@ -51,4 +52,16 @@ load balancer.
 the vms are stopped/shutdown and the script will fail if the vms are running.
 
 
+## Pre-requisites
+Before you start launching vms, you must follow all of the OpenShift container
+platform preparation pre-requisites. 
+
+Red Hat OpenShift Container platform documentation is massive. As we are
+deploying a user-provisioned-infrastructure cluster on baremetal.  We can use
+this reference documentation link as the base: 
+[Installing Red Hat OpenShift Container Platform on Baremetal[(https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/index)
+
+- point 1
+- point 2
+- point 3
 
