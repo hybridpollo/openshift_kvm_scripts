@@ -65,7 +65,10 @@ this reference documentation link as the base:
 [Installing Red Hat OpenShift Container Platform on
 Baremetal](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installing-bare-metal)
 
-- point 1
-- point 2
-- point 3
+- [ Set the cluster node hostnames through DHCP
+  ](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-host-names-dhcp-user-infra_installing-bare-metal)
+- [Configure your DNS records to support your OpenShift
+  deployment](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-dns-user-infra_installing-bare-metal)
+- [Prepare the haproxy loadbalancing
+  configuration](https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/installing_on_bare_metal/user-provisioned-infrastructure#installation-load-balancing-user-infra_installing-bare-metal)
 
